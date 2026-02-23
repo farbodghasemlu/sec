@@ -108,7 +108,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/farbodghasemlu/sec.git
-cd YOUR_REPO
+cd sec
 ```
 
 Make the script executable:
@@ -126,10 +126,10 @@ sudo ./src/setup.sh
 
 ### Setup with geographic blocking
 
-Example: block Russia
+Example: block SWITZERLAND
 
 ```bash
-sudo ./src/setup.sh -c ru
+sudo ./src/setup.sh -c ch
 ```
 
 Country codes must be ISO-3166 lowercase.
@@ -166,7 +166,7 @@ rm /etc/iptables.rules
 rm /etc/network/if-pre-up.d/iptables
 ```
 
-##Disclaimer
+## Disclaimer
 
 This project is provided as-is for administrative and educational purposes.
 
